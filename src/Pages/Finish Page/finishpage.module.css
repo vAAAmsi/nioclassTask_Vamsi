@@ -1,0 +1,61 @@
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: #e6e9ed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    background-color: white;
+    width: 30%;
+    /* height: 42%; */
+    border-radius: 4%;
+}
+.text{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 500;
+}
+.email,.password,.btn{
+    font-weight: 500;
+    margin-top: 20px;
+}
+.ids {
+    margin-top: 5px;
+}
+.end{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.link{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+@media screen and (max-width:1000px) {
+    .form{
+        width: 45%;
+    }
+    
+}
+@media screen and (max-width:670px) {
+    .form{
+        width: 60%;
+    }
+    
+}
+@media screen and (max-width:480px) {
+    .form{
+        width: 75%;
+    }
+    
+}
+@media screen and (max-width:391px) {
+    .form{
+        width: 90%;
+    }
+    
+}

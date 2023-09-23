@@ -1,0 +1,20 @@
+.question{
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.btns_container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20%;
+}
+.timer_container {
+    padding: 20px;
+    background-color: pink;
+    color: black;
+    font-size: 20px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
