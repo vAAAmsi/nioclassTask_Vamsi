@@ -62,12 +62,6 @@ const Testpage = () => {
       setIndex(index + 1)
     } 
  }
-
-//  const RecordTimesNavigater = () => {
- 
-  
-//   navigate('/finishpage',{ state: timings })
-//  }
  
  const SubmitHandler = () => {
  
@@ -86,9 +80,10 @@ const Testpage = () => {
         newTimings[index] = timer;
         return newTimings;
       });
+      navigate('/finishpage',{
+        state: timings })
     }
-    navigate('/finishpage',{
-       state: timings })
+    
 
   });
  }

@@ -7,12 +7,7 @@ function MathQuestion( {question, index} ) {
     
     input: 'tex',
     output: 'html',
-<<<<<<< HEAD
     display: true, 
-    
-=======
-    display: false, 
->>>>>>> 149f30baf33736e2c4874b2645195d592ffa516a
   };
 
   
